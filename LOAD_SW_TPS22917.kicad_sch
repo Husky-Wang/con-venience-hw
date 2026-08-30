@@ -470,7 +470,7 @@
 					)
 				)
 				(pin open_collector line
-					(at 10.16 0 180)
+					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "QOD"
 						(effects
@@ -625,19 +625,19 @@
 		)
 	)
 	(junction
-		(at 184.15 97.79)
+		(at 186.69 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10942844-987b-40d5-b968-865a6e693f5a")
 	)
 	(junction
-		(at 163.83 113.03)
+		(at 171.45 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3062e0f4-3ac8-402c-8f05-aa788fcbbff1")
+		(uuid "336349c0-7489-43af-83a9-5ac182f978c8")
 	)
 	(junction
-		(at 173.99 113.03)
+		(at 176.53 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b80b38c-746a-46a1-ba72-5c6f814a200b")
@@ -673,10 +673,20 @@
 		(uuid "f4676ee9-dfbd-4b67-a18d-2993c9dbe7fc")
 	)
 	(junction
-		(at 173.99 97.79)
+		(at 176.53 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "feb4e19f-7cde-4926-8b6c-30500df74ed7")
+	)
+	(wire
+		(pts
+			(xy 161.29 102.87) (xy 163.83 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a259e0-8d55-4fcd-aba7-61d7fef03633")
 	)
 	(wire
 		(pts
@@ -720,7 +730,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 113.03) (xy 184.15 110.49)
+			(xy 186.69 113.03) (xy 186.69 110.49)
 		)
 		(stroke
 			(width 0)
@@ -740,33 +750,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 97.79) (xy 173.99 97.79)
+			(xy 161.29 97.79) (xy 171.45 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2d6cab1b-c92d-4e4b-a9a6-a8379c4c2b16")
-	)
-	(wire
-		(pts
-			(xy 163.83 100.33) (xy 163.83 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31e0ee2c-ab48-4c09-af2a-7d451364b205")
-	)
-	(wire
-		(pts
-			(xy 163.83 110.49) (xy 163.83 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47ab6656-3ecc-4eca-8ddd-5cd41143e5a9")
 	)
 	(wire
 		(pts
@@ -790,23 +780,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 100.33) (xy 163.83 100.33)
+			(xy 168.91 102.87) (xy 171.45 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b046a3e-585a-42a6-af96-1bde2e61d4aa")
-	)
-	(wire
-		(pts
-			(xy 151.13 113.03) (xy 163.83 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d008cd1-3128-4b62-b2a7-0ce606347c2c")
+		(uuid "4f6d6f48-b4e6-491f-b46b-f86c411b43b9")
 	)
 	(wire
 		(pts
@@ -820,17 +800,27 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 113.03) (xy 173.99 113.03)
+			(xy 171.45 97.79) (xy 171.45 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "734dba76-3066-4790-9800-cf2e58e345eb")
+		(uuid "65bc22e6-06c5-4bb2-991e-ad325d485ea2")
 	)
 	(wire
 		(pts
-			(xy 173.99 113.03) (xy 173.99 110.49)
+			(xy 151.13 113.03) (xy 176.53 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "782bf4d2-ebe4-403b-8f1c-ecba889f8ece")
+	)
+	(wire
+		(pts
+			(xy 176.53 113.03) (xy 176.53 110.49)
 		)
 		(stroke
 			(width 0)
@@ -840,7 +830,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 97.79) (xy 184.15 97.79)
+			(xy 176.53 97.79) (xy 186.69 97.79)
 		)
 		(stroke
 			(width 0)
@@ -850,7 +840,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 97.79) (xy 194.31 97.79)
+			(xy 186.69 97.79) (xy 196.85 97.79)
 		)
 		(stroke
 			(width 0)
@@ -880,7 +870,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 113.03) (xy 184.15 113.03)
+			(xy 176.53 113.03) (xy 186.69 113.03)
 		)
 		(stroke
 			(width 0)
@@ -940,7 +930,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 97.79) (xy 173.99 105.41)
+			(xy 171.45 97.79) (xy 176.53 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1dde163-78a9-4bd7-9f5c-81349fdb65d6")
+	)
+	(wire
+		(pts
+			(xy 176.53 97.79) (xy 176.53 105.41)
 		)
 		(stroke
 			(width 0)
@@ -950,7 +950,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 97.79) (xy 184.15 105.41)
+			(xy 186.69 97.79) (xy 186.69 105.41)
 		)
 		(stroke
 			(width 0)
@@ -981,7 +981,7 @@
 	)
 	(hierarchical_label "Vout"
 		(shape output)
-		(at 194.31 97.79 0)
+		(at 196.85 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1003,7 +1003,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 173.99 107.95 0)
+		(at 176.53 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1013,8 +1013,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12701945-ef8f-4654-af51-d8648d17f39d")
-		(property "Reference" "C62"
-			(at 176.53 106.6862 0)
+		(property "Reference" "C58"
+			(at 179.07 106.6862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1025,7 +1025,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 176.53 109.2262 0)
+			(at 179.07 109.2262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1036,7 +1036,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 173.99 107.95 0)
+			(at 176.53 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1047,7 +1047,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 107.95 0)
+			(at 176.53 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1058,7 +1058,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 173.99 107.95 0)
+			(at 176.53 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1076,12 +1076,8 @@
 		)
 		(instances
 			(project "DigiFur-Rev1.0"
-				(path "/47dbac06-588f-419b-91d0-b3790df884b4/e25ef6c0-b768-4f2d-b08c-2617d4a733a2"
-					(reference "C62")
-					(unit 1)
-				)
 				(path "/47dbac06-588f-419b-91d0-b3790df884b4/f8199bbe-f54a-440d-afde-f9e5f212ef78"
-					(reference "C67")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -1099,7 +1095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36e41a39-c25f-4330-abdc-c327c14eeeed")
-		(property "Reference" "C60"
+		(property "Reference" "C56"
 			(at 123.19 106.6862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1162,12 +1158,8 @@
 		)
 		(instances
 			(project "DigiFur-Rev1.0"
-				(path "/47dbac06-588f-419b-91d0-b3790df884b4/e25ef6c0-b768-4f2d-b08c-2617d4a733a2"
-					(reference "C60")
-					(unit 1)
-				)
 				(path "/47dbac06-588f-419b-91d0-b3790df884b4/f8199bbe-f54a-440d-afde-f9e5f212ef78"
-					(reference "C65")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -1185,7 +1177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b175a63-65f9-4a58-8712-d3432d5cd5d7")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR064"
 			(at 151.13 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -1244,10 +1236,6 @@
 		)
 		(instances
 			(project "DigiFur-Rev1.0"
-				(path "/47dbac06-588f-419b-91d0-b3790df884b4/e25ef6c0-b768-4f2d-b08c-2617d4a733a2"
-					(reference "#PWR063")
-					(unit 1)
-				)
 				(path "/47dbac06-588f-419b-91d0-b3790df884b4/f8199bbe-f54a-440d-afde-f9e5f212ef78"
 					(reference "#PWR064")
 					(unit 1)
@@ -1257,7 +1245,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 163.83 107.95 0)
+		(at 166.37 102.87 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1265,32 +1253,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "8d78b37f-cc9d-4762-a311-8b822dff29e3")
-		(property "Reference" "R40"
-			(at 166.37 106.6799 0)
+		(property "Reference" "R44"
+			(at 166.37 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "DNP"
-			(at 166.37 109.2199 0)
+			(at 166.37 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 163.83 107.95 0)
+			(at 166.37 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1301,7 +1286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 107.95 0)
+			(at 166.37 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1312,7 +1297,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 163.83 107.95 0)
+			(at 166.37 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1330,12 +1315,8 @@
 		)
 		(instances
 			(project "DigiFur-Rev1.0"
-				(path "/47dbac06-588f-419b-91d0-b3790df884b4/e25ef6c0-b768-4f2d-b08c-2617d4a733a2"
-					(reference "R40")
-					(unit 1)
-				)
 				(path "/47dbac06-588f-419b-91d0-b3790df884b4/f8199bbe-f54a-440d-afde-f9e5f212ef78"
-					(reference "R41")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -1353,7 +1334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94f34547-9039-45d4-a15d-1b1750695ba6")
-		(property "Reference" "C59"
+		(property "Reference" "C55"
 			(at 113.03 106.6862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1416,12 +1397,8 @@
 		)
 		(instances
 			(project "DigiFur-Rev1.0"
-				(path "/47dbac06-588f-419b-91d0-b3790df884b4/e25ef6c0-b768-4f2d-b08c-2617d4a733a2"
-					(reference "C59")
-					(unit 1)
-				)
 				(path "/47dbac06-588f-419b-91d0-b3790df884b4/f8199bbe-f54a-440d-afde-f9e5f212ef78"
-					(reference "C64")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -1429,7 +1406,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 184.15 107.95 0)
+		(at 186.69 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1439,8 +1416,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4be2ddb-d9f4-451b-9f84-69e20524dc45")
-		(property "Reference" "C63"
-			(at 186.69 106.6862 0)
+		(property "Reference" "C59"
+			(at 189.23 106.6862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1451,7 +1428,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 186.69 109.2262 0)
+			(at 189.23 109.2262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1462,7 +1439,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 184.15 107.95 0)
+			(at 186.69 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1473,7 +1450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 107.95 0)
+			(at 186.69 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1484,7 +1461,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 184.15 107.95 0)
+			(at 186.69 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1502,12 +1479,8 @@
 		)
 		(instances
 			(project "DigiFur-Rev1.0"
-				(path "/47dbac06-588f-419b-91d0-b3790df884b4/e25ef6c0-b768-4f2d-b08c-2617d4a733a2"
-					(reference "C63")
-					(unit 1)
-				)
 				(path "/47dbac06-588f-419b-91d0-b3790df884b4/f8199bbe-f54a-440d-afde-f9e5f212ef78"
-					(reference "C68")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -1525,7 +1498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d93b0a38-3618-48a3-9988-fe5e2c1e24f3")
-		(property "Reference" "C61"
+		(property "Reference" "C57"
 			(at 135.8963 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1586,12 +1559,8 @@
 		)
 		(instances
 			(project "DigiFur-Rev1.0"
-				(path "/47dbac06-588f-419b-91d0-b3790df884b4/e25ef6c0-b768-4f2d-b08c-2617d4a733a2"
-					(reference "C61")
-					(unit 1)
-				)
 				(path "/47dbac06-588f-419b-91d0-b3790df884b4/f8199bbe-f54a-440d-afde-f9e5f212ef78"
-					(reference "C66")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -1609,7 +1578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e57fc184-15dd-4cf4-8cbf-21715a5db982")
-		(property "Reference" "U15"
+		(property "Reference" "U16"
 			(at 151.13 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1682,10 +1651,6 @@
 		)
 		(instances
 			(project "DigiFur-Rev1.0"
-				(path "/47dbac06-588f-419b-91d0-b3790df884b4/e25ef6c0-b768-4f2d-b08c-2617d4a733a2"
-					(reference "U15")
-					(unit 1)
-				)
 				(path "/47dbac06-588f-419b-91d0-b3790df884b4/f8199bbe-f54a-440d-afde-f9e5f212ef78"
 					(reference "U16")
 					(unit 1)
