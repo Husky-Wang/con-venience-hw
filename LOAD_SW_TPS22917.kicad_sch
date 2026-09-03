@@ -1177,7 +1177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b175a63-65f9-4a58-8712-d3432d5cd5d7")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR065"
 			(at 151.13 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -1237,7 +1237,7 @@
 		(instances
 			(project "DigiFur-Rev1.0"
 				(path "/47dbac06-588f-419b-91d0-b3790df884b4/f8199bbe-f54a-440d-afde-f9e5f212ef78"
-					(reference "#PWR064")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -1254,7 +1254,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "8d78b37f-cc9d-4762-a311-8b822dff29e3")
-		(property "Reference" "R44"
+		(property "Reference" "R45"
 			(at 166.37 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1316,7 +1316,7 @@
 		(instances
 			(project "DigiFur-Rev1.0"
 				(path "/47dbac06-588f-419b-91d0-b3790df884b4/f8199bbe-f54a-440d-afde-f9e5f212ef78"
-					(reference "R44")
+					(reference "R45")
 					(unit 1)
 				)
 			)

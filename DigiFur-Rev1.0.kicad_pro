@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 1.1684,
+          "height": 1.6764,
+          "width": 1.6764
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "border_display_style": 1,
+          "border_display_style": 2,
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
@@ -63,8 +63,8 @@
           "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
-          "remove_islands": 0,
+          "pad_connection": 2,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -214,7 +214,9 @@
         0.1,
         0.25,
         0.5,
+        0.6,
         0.75,
+        0.8,
         1.0,
         1.25,
         1.5,
@@ -255,6 +257,26 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.25,
+          "drill": 0.15
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false
@@ -310,6 +332,10 @@
       [
         "pin_to_pin|1524000|901700|8a95535f-64be-449a-84f6-2e163653ca5a|8a95535f-64be-449a-84f6-2e163653ca5a|/47dbac06-588f-419b-91d0-b3790df884b4/88e4d8d5-9b78-4fb5-9f90-e7a9602950c7|/47dbac06-588f-419b-91d0-b3790df884b4/88e4d8d5-9b78-4fb5-9f90-e7a9602950c7|/47dbac06-588f-419b-91d0-b3790df884b4/b9f26843-1012-4a63-8c48-45d26c73c917",
         "TPS63900 can be paralleled."
+      ],
+      [
+        "pin_to_pin|2019300|571500|4d4c1a74-dd6d-4f93-a8d4-ca579673a00c|d592701f-6dca-4df4-868e-e870aa9ab815|/f34a0579-48a0-44f8-9f4d-f4d692adcf3d|/f34a0579-48a0-44f8-9f4d-f4d692adcf3d|/f34a0579-48a0-44f8-9f4d-f4d692adcf3d",
+        ""
       ],
       [
         "pin_to_pin|2019300|647700|4c7a66ff-033a-4ef2-83a2-996def3870bf|e0c1a130-9ca7-401e-a35c-8dba972d53cc|/f34a0579-48a0-44f8-9f4d-f4d692adcf3d|/f34a0579-48a0-44f8-9f4d-f4d692adcf3d|/f34a0579-48a0-44f8-9f4d-f4d692adcf3d",
@@ -782,7 +808,7 @@
         "uuid": "54298b52-0ffe-40ef-8666-22993c0ca2db"
       }
     ],
-    "used_designators": "BT1,#FLG1-4,C1-59,H1-4,D1-2,U1-16,Q1,L1-4,FID1-3,SW1-5,J1-6,Y1,#PWR1-64,R1-45,JP1",
+    "used_designators": "H1-4,BT1,C1-59,#FLG1-4,D1-2,U1-16,Q1,FID1-3,L1-4,J1-6,SW1-5,#PWR1-65,Y1,JP1,R1-45",
     "variants": []
   },
   "sheets": [

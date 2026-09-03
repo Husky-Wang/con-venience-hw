@@ -2261,7 +2261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17fc0992-9f34-45eb-bd6c-f68c4ed9e3df")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR058"
 			(at 137.16 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2321,7 +2321,7 @@
 		(instances
 			(project "DigiFur-Rev1.0"
 				(path "/54298b52-0ffe-40ef-8666-22993c0ca2db"
-					(reference "#PWR056")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2339,7 +2339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cc2c342-ba4b-405c-8ebe-56e734868f71")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR057"
 			(at 137.16 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2399,7 +2399,7 @@
 		(instances
 			(project "DigiFur-Rev1.0"
 				(path "/54298b52-0ffe-40ef-8666-22993c0ca2db"
-					(reference "#PWR060")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -2417,7 +2417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37ca7d13-6a02-4834-a3b4-bb70ad60cd93")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR060"
 			(at 139.7 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -2477,7 +2477,7 @@
 		(instances
 			(project "DigiFur-Rev1.0"
 				(path "/54298b52-0ffe-40ef-8666-22993c0ca2db"
-					(reference "#PWR057")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -2494,7 +2494,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60ced86f-73c9-49b4-9340-cfb46f2362bf")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 148.59 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2605,7 +2605,7 @@
 		(instances
 			(project "DigiFur-Rev1.0"
 				(path "/54298b52-0ffe-40ef-8666-22993c0ca2db"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2623,7 +2623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "678a4c42-da8d-4fb5-83e7-0117f51f370d")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR062"
 			(at 157.48 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -2683,7 +2683,7 @@
 		(instances
 			(project "DigiFur-Rev1.0"
 				(path "/54298b52-0ffe-40ef-8666-22993c0ca2db"
-					(reference "#PWR058")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -2700,7 +2700,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67a745ed-b15a-45cd-a55c-604b8b256705")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 148.59 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2793,7 +2793,7 @@
 		(instances
 			(project "DigiFur-Rev1.0"
 				(path "/54298b52-0ffe-40ef-8666-22993c0ca2db"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2889,7 +2889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb7b9d68-9d93-4b51-9237-cd844e8706c2")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR064"
 			(at 160.02 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2949,7 +2949,7 @@
 		(instances
 			(project "DigiFur-Rev1.0"
 				(path "/54298b52-0ffe-40ef-8666-22993c0ca2db"
-					(reference "#PWR059")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -2967,7 +2967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c038f27d-41f4-469f-8925-b52dcb566f97")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR059"
 			(at 139.7 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3027,7 +3027,7 @@
 		(instances
 			(project "DigiFur-Rev1.0"
 				(path "/54298b52-0ffe-40ef-8666-22993c0ca2db"
-					(reference "#PWR061")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -3045,7 +3045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef163719-9fa8-48d3-902e-b0abe6866d48")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR061"
 			(at 157.48 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3105,7 +3105,7 @@
 		(instances
 			(project "DigiFur-Rev1.0"
 				(path "/54298b52-0ffe-40ef-8666-22993c0ca2db"
-					(reference "#PWR062")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
