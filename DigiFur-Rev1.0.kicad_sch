@@ -3281,6 +3281,12 @@
 		(uuid "0e258c69-5a4d-4722-92ef-00141213877d")
 	)
 	(junction
+		(at 208.28 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f7dba6a-73e6-44b3-a1e9-576eee002a76")
+	)
+	(junction
 		(at 58.42 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3333,12 +3339,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6880deef-12b9-475e-8127-21df5954dca0")
-	)
-	(junction
-		(at 208.28 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6943aee0-6190-4a50-98da-f64387e1d9af")
 	)
 	(junction
 		(at 48.26 69.85)
@@ -3489,16 +3489,6 @@
 			(type default)
 		)
 		(uuid "026792ac-57eb-41a7-861d-90a7d4bddf43")
-	)
-	(wire
-		(pts
-			(xy 187.96 119.38) (xy 187.96 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04a0bbe2-ca14-4fa0-8047-83ed07bfce60")
 	)
 	(wire
 		(pts
@@ -3662,7 +3652,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 129.54) (xy 208.28 129.54)
+			(xy 205.74 129.54) (xy 208.28 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3679,6 +3669,16 @@
 			(type default)
 		)
 		(uuid "208e919b-55b4-4201-86b0-a92eb3356d70")
+	)
+	(wire
+		(pts
+			(xy 187.96 129.54) (xy 190.5 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23738852-d227-4058-9a64-10a929572202")
 	)
 	(wire
 		(pts
@@ -4052,16 +4052,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 119.38) (xy 200.66 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56d9155e-e7f9-4fe4-8e25-7616b55c2ecb")
-	)
-	(wire
-		(pts
 			(xy 22.86 148.59) (xy 35.56 148.59)
 		)
 		(stroke
@@ -4199,16 +4189,6 @@
 			(type default)
 		)
 		(uuid "7144f307-506b-436f-a7dd-0fb6bfccd284")
-	)
-	(wire
-		(pts
-			(xy 200.66 119.38) (xy 200.66 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72fbbb4d-605a-4a4b-baab-0df6825cf5a4")
 	)
 	(wire
 		(pts
@@ -4369,16 +4349,6 @@
 			(type default)
 		)
 		(uuid "89f8e4ff-2133-4aa0-8097-a0530966b1a9")
-	)
-	(wire
-		(pts
-			(xy 200.66 127) (xy 200.66 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e03a58c-ae3a-4b38-8baa-b7fc509aae4c")
 	)
 	(wire
 		(pts
@@ -4669,6 +4639,16 @@
 			(type default)
 		)
 		(uuid "b716c48c-30cb-44e5-a8e9-01b63015563e")
+	)
+	(wire
+		(pts
+			(xy 198.12 129.54) (xy 200.66 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ed3b21-dcba-48ff-a45f-35d720962a7b")
 	)
 	(wire
 		(pts
@@ -5792,14 +5772,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 133.35 0)
+			(at 185.42 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6166,121 +6146,6 @@
 			(project "DigiFur-Rev1.0"
 				(path "/f34a0579-48a0-44f8-9f4d-f4d692adcf3d"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 187.96 127 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "27568ab2-751b-4bd5-88a8-1855f983bb37")
-		(property "Reference" "BT1"
-			(at 184.15 123.8884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "A-BAT-CH-C8-EA-GSR3"
-			(at 184.15 126.4284 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_1060_1x2032"
-			(at 187.96 125.476 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.assmann-wsw.com/uploads/datasheets/ASS_9162_CO.pdf"
-			(at 187.96 125.476 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 187.96 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 187.96 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at 187.96 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 187.96 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c13ce13f-019d-4a56-9c4f-b536469f6417")
-		)
-		(pin "2"
-			(uuid "a2719711-9d20-4fb1-b8da-98361730af0a")
-		)
-		(instances
-			(project "DigiFur-Rev1.0"
-				(path "/f34a0579-48a0-44f8-9f4d-f4d692adcf3d"
-					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -8219,7 +8084,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 200.66 124.46 90)
+		(at 203.2 129.54 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8230,29 +8095,27 @@
 		(fields_autoplaced yes)
 		(uuid "8867b8c7-64ae-4ab7-81f8-79f92aef4b80")
 		(property "Reference" "D1"
-			(at 203.2 123.4439 90)
+			(at 203.454 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "CUS520"
-			(at 203.2 125.9839 90)
+			(at 203.454 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 200.66 124.46 90)
+			(at 203.2 129.54 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8263,7 +8126,7 @@
 			)
 		)
 		(property "Datasheet" "https://toshiba.semicon-storage.com/info/CUS520_datasheet_en_20230708.pdf?did=7041&prodName=CUS520"
-			(at 200.66 124.46 90)
+			(at 203.2 129.54 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8274,7 +8137,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 200.66 124.46 0)
+			(at 203.2 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9040,6 +8903,119 @@
 			(project "DigiFur-Rev1.0"
 				(path "/f34a0579-48a0-44f8-9f4d-f4d692adcf3d"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 193.04 129.54 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a3a2c92d-7634-492c-b2fe-8b2fb663113f")
+		(property "Reference" "BT1"
+			(at 194.31 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "A-BAT-CH-C8-EA-GSR3"
+			(at 194.8815 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_Keystone_1060_1x2032"
+			(at 194.564 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.assmann-wsw.com/uploads/datasheets/ASS_9162_CO.pdf"
+			(at 194.564 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 193.04 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 193.04 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 193.04 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 193.04 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b1c7515f-88ff-418e-92b8-6c5b45c15aa0")
+		)
+		(pin "1"
+			(uuid "21741aef-824e-4d4e-b4e8-e62dc583d2a1")
+		)
+		(instances
+			(project "DigiFur-Rev1.0"
+				(path "/f34a0579-48a0-44f8-9f4d-f4d692adcf3d"
+					(reference "BT1")
 					(unit 1)
 				)
 			)

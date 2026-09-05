@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.1684,
-          "height": 1.6764,
-          "width": 1.6764
+          "drill": 1.0,
+          "height": 1.8,
+          "width": 1.8
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -60,11 +60,11 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 2,
-          "remove_islands": 1,
+          "min_thickness": 0.2,
+          "pad_connection": 3,
+          "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -76,7 +76,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|145000000|102300000|6d520fbc-adb6-4ced-856b-2cd33190d8b3|00000000-0000-0000-0000-000000000000",
+          "Changed for board edge silkscreen"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -216,7 +221,6 @@
         0.5,
         0.6,
         0.75,
-        0.8,
         1.0,
         1.25,
         1.5,
@@ -332,10 +336,6 @@
       [
         "pin_to_pin|1524000|901700|8a95535f-64be-449a-84f6-2e163653ca5a|8a95535f-64be-449a-84f6-2e163653ca5a|/47dbac06-588f-419b-91d0-b3790df884b4/88e4d8d5-9b78-4fb5-9f90-e7a9602950c7|/47dbac06-588f-419b-91d0-b3790df884b4/88e4d8d5-9b78-4fb5-9f90-e7a9602950c7|/47dbac06-588f-419b-91d0-b3790df884b4/b9f26843-1012-4a63-8c48-45d26c73c917",
         "TPS63900 can be paralleled."
-      ],
-      [
-        "pin_to_pin|2019300|571500|4d4c1a74-dd6d-4f93-a8d4-ca579673a00c|d592701f-6dca-4df4-868e-e870aa9ab815|/f34a0579-48a0-44f8-9f4d-f4d692adcf3d|/f34a0579-48a0-44f8-9f4d-f4d692adcf3d|/f34a0579-48a0-44f8-9f4d-f4d692adcf3d",
-        ""
       ],
       [
         "pin_to_pin|2019300|647700|4c7a66ff-033a-4ef2-83a2-996def3870bf|e0c1a130-9ca7-401e-a35c-8dba972d53cc|/f34a0579-48a0-44f8-9f4d-f4d692adcf3d|/f34a0579-48a0-44f8-9f4d-f4d692adcf3d|/f34a0579-48a0-44f8-9f4d-f4d692adcf3d",
