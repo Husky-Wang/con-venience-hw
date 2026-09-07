@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
-          "min_thickness": 0.2,
+          "min_thickness": 0.25,
           "pad_connection": 3,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_spoke_width": 0.75
         }
       },
       "diff_pair_dimensions": [
@@ -80,6 +80,22 @@
         [
           "lib_footprint_mismatch|145000000|102300000|6d520fbc-adb6-4ced-856b-2cd33190d8b3|00000000-0000-0000-0000-000000000000",
           "Changed for board edge silkscreen"
+        ],
+        [
+          "lib_footprint_mismatch|165920000|79255700|8ae75984-49eb-457c-b6e2-938689ce0b97|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|170555000|69937500|5258dce5-6388-40e3-b2a1-e75de85050fb|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|176080000|79175500|355e3c67-aaf8-4af0-8fda-895db7d79d9b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|80000000|90000000|0c54a96d-f5c3-4e2a-99ec-5b0990a2c548|00000000-0000-0000-0000-000000000000",
+          ""
         ]
       ],
       "meta": {
@@ -627,7 +643,7 @@
       "netlist": "",
       "plot": "pdf/",
       "specctra_dsn": "",
-      "step": "3d/DigiFur-Rev1.0.step",
+      "step": "3d/PCB.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -808,7 +824,7 @@
         "uuid": "54298b52-0ffe-40ef-8666-22993c0ca2db"
       }
     ],
-    "used_designators": "H1-4,BT1,C1-59,#FLG1-4,D1-2,U1-16,Q1,FID1-3,L1-4,J1-6,SW1-5,#PWR1-65,Y1,JP1,R1-45",
+    "used_designators": "H1-4,JP1,C1-59,BT1,#FLG1-4,Q1,D1-2,U1-16,L1-4,FID1-3,SW1-5,J1-6,Y1,#PWR1-65,R1-45",
     "variants": []
   },
   "sheets": [
